@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sample-nodejs-app
-        image: index.docker.io/osmhub/nodejs #gcr.io/heptio-images/ks-guestbook-demo:0.2
+        image: index.docker.io/osmhub/nodejs-application #gcr.io/heptio-images/ks-guestbook-demo:0.2
         #name: sample-nodejs-app
         ports:
         - containerPort: 3000
