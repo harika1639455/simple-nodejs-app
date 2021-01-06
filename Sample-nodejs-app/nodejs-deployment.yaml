@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sample-nodejs-app
-        image: index.docker.io/osmhub/nodejs:v2.0.0
+        image: index.docker.io/osmhub/nodejs:v3.0.0
         #name: sample-nodejs-app
         ports:
         - containerPort: 3000
