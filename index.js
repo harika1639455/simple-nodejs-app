@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send(' Welcome!! Cloudnative Tools \n');
+  res.send(' v2.0.0\n');
 });
 
 var server = app.listen(3000, function () {
